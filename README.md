@@ -4,8 +4,10 @@
 
 # Descripcion de diseño
 
-El proyecto se desarrolló siguiendo una arquitectura en capas, con separación clara entre controladores, servicios, repositorios, modelos y DTOs, a fin de mantener un código modular, mantenible y fácilmente escalable. Se utilizó Node.js con Express por su simplicidad y flexibilidad en la creación de APIs REST.
-Los controladores se limitaron a gestionar las peticiones y respuestas HTTP, mientras que la lógica de negocio se concentró en la capa de servicios, y el manejo de datos se delegó a la capa de repositorio.
-Se implementó un almacenamiento en memoria para simplificar la ejecución local, priorizando la claridad estructural sobre la persistencia. Finalmente, se definieron los endpoints según las especificaciones dadas, garantizando el cumplimiento del principio de responsabilidad única y la facilidad de pruebas mediante herramientas como Postman.
+El proyecto se desarrolló siguiendo una arquitectura en capas que separa responsabilidades entre controladores, servicios, repositorios, modelos y DTOs.
+Esto con el fin de tener un código limpio, modular y fácil de mantener.
+Se eligió Node.js con Express por su simplicidad y capacidad para implementar APIs REST de forma rápida, cumpliendo con los endpoints definidos.
+Los controladores se limitan a recibir y responder solicitudes HTTP, mientras que la lógica de negocio se ubica en los servicios, y el manejo de datos en los repositorios.
+Se optó por usar una estructura en memoria para simplificar las pruebas, manteniendo la posibilidad de escalar a una base de datos real sin modificar la arquitectura principal.
 
 ## Enlace video https://drive.google.com/drive/u/2/folders/1O3C451Ge_BldEGYW4GUkM6AnrnRgbCL2
